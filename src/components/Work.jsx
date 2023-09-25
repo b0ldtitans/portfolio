@@ -37,16 +37,18 @@ const Work = () => {
               {/* img */}
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={porto1}
+                src="https://media.licdn.com/dms/image/D5622AQE1sENICJ6VfQ/feedshare-shrink_2048_1536/0/1695013203801?e=1698278400&v=beta&t=veoHD-poL0D6btJceS6V8osKIeoKvNCaLpp7ov9-NyA"
                 alt=""
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">React Project</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white ">Project Title</span>
+                <span className="text-3xl text-white ">
+                  The Ticket Registry
+                </span>
               </div>
             </div>
           </motion.div>
