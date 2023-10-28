@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import porto1 from "../assets/portfolio-img1.png";
-import porto2 from "../assets/portfolio-img2.png";
+import fmpos2 from "../assets/fmpos2.png";
 import porto3 from "../assets/portfolio-img3.png";
 
 const Work = () => {
@@ -66,24 +66,28 @@ const Work = () => {
             className="flex-1 flex flex-col gap-y-10"
           >
             {/* image */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                className="group-hover:scale-125 transition-all duration-500"
-                src={porto2}
-                alt=""
-              />
-              {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+            <a href="https://github.com/b0ldtitans/FamilyMart-POSWebApp">
+              <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+                {/* overlay */}
+                <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+                {/* img */}
+                <img
+                  className="group-hover:scale-125 transition-all duration-500"
+                  src={fmpos2}
+                  alt=""
+                />
+                {/* pretitle */}
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">Fullstack Development</span>
+                </div>
+                {/* title */}
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white ">
+                    FamilyMart POS Web App
+                  </span>
+                </div>
               </div>
-              {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white ">Project Title</span>
-              </div>
-            </div>
+            </a>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
