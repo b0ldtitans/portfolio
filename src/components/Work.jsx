@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import porto1 from "../assets/portfolio-img1.png";
 import fmpos2 from "../assets/fmpos2.png";
-import porto3 from "../assets/portfolio-img3.png";
+import medium from "../assets/medium.png";
 
 const Work = () => {
   return (
@@ -27,7 +27,9 @@ const Work = () => {
                 Crafting digital experiences that captivate and innovate. From
                 sleek interfaces to seamless interactions, my latest projects
                 showcase the perfect blend of form and function. Dive in and
-                explore the intersection of creativity and technology.
+                explore the intersection of creativity and technology. I also
+                write for fun. Check out my Medium articles below! Although I'm
+                a lazy writer.
               </p>
             </div>
             {/* image */}
@@ -89,23 +91,21 @@ const Work = () => {
               </div>
             </a>
 
-            {/* <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+            <a href="https://medium.com/@thareqazani">
+              <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
 
-              <img
-                className="group-hover:scale-125 transition-all duration-500"
-                src={porto3}
-                alt=""
-              />
+                <img
+                  className="group-hover:scale-125 transition-all duration-500"
+                  src={medium}
+                  alt=""
+                />
 
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white ">Medium Articles</span>
+                </div>
               </div>
-
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white ">Project Title</span>
-              </div>
-            </div> */}
+            </a>
           </motion.div>
         </div>
       </div>
