@@ -80,13 +80,18 @@ const Work = () => {
                 />
                 {/* pretitle */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-gradient">Fullstack Development</span>
+                  <span className="text-gradient">
+                    Fullstack Web Development
+                  </span>
                 </div>
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                   <span className="text-3xl text-white ">
                     FamilyMart POS Web App
-                  </span>
+                    <p className="text-xs">
+                      UI/UX design by Michelle Grace (Purwadhika JCUX-1504)
+                    </p>
+                  </span>{" "}
                 </div>
               </div>
             </a>
