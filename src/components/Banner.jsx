@@ -78,7 +78,7 @@ const Banner = () => {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                className="text-gradient btn-link"
+                className="text-gradient btn-link cursor-pointer"
               >
                 Contact me
               </Link>
