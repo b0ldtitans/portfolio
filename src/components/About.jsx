@@ -93,9 +93,6 @@ const About = () => {
               <table className="border border-gray-400 w-3/4">
                 <thead>
                   <tr className=" border-b">
-                    <th className="py-2 px-4 align-middle text-center">
-                      Participated Projects
-                    </th>
                     <th className="py-2 px-4 border-l align-middle text-center">
                       My Education
                     </th>
@@ -103,42 +100,36 @@ const About = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="py-2 px-4 align-middle text-center">TBA</td>
-                    <td className="py-2 px-4 border-l align-middle text-center text-2xl">
+                    <td className="py-2 px-4 align-middle text-center text-2xl">
                       Sekolah Tinggi Pariwisata NHI Bandung
                     </td>
                   </tr>
                   <tr>
-                    <td className="py-2 px-4 align-middle text-center"></td>
-                    <td className="py-2 px-4 border-l align-middle text-center">
+                    <td className="py-2 px-4 align-middle text-center">
                       <sup>
                         Associates's Degree in Food Production Management
                       </sup>
                     </td>
                   </tr>
                   <tr>
-                    <td className="py-2 px-4 align-middle text-center"></td>
-                    <td className="py-2 px-4 border-l align-middle text-center text-2xl">
+                    <td className="py-2 px-4 align-middle text-center text-2xl">
                       Politeknik Pariwisata NHI Bandung
                     </td>
                   </tr>
                   <tr>
-                    <td className="py-2 px-4 align-middle text-center"></td>
-                    <td className="py-2 px-4 border-l align-middle text-center">
+                    <td className="py-2 px-4 align-middle text-center">
                       <sup>
                         Applied Bachelor's Degree in Hospitality Management
                       </sup>
                     </td>
                   </tr>
                   <tr>
-                    <td className="py-2 px-4 align-middle text-center"></td>
-                    <td className="py-2 px-4 border-l align-middle text-center text-2xl">
+                    <td className="py-2 px-4 align-middle text-center text-2xl">
                       Purwadhika Digital Technology School
                     </td>
                   </tr>
                   <tr>
-                    <td className="py-2 px-4 align-middle text-center"></td>
-                    <td className="py-2 px-4 border-l align-middle text-center">
+                    <td className="py-2 px-4 align-middle text-center">
                       <sup>Job Connector Web Development</sup>
                     </td>
                   </tr>

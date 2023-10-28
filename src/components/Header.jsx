@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "../assets/bitmapzz.png";
-import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -10,16 +9,6 @@ const Header = () => {
           <a href="#">
             <img src={Logo} alt="Logo" />
           </a>
-          <Link
-            // as="button"
-            // to="contact"
-            // activeClass="active"
-            // smooth={true}
-            // spy={true}
-            className="btn btn-sm flex items-center justify-content"
-          >
-            Work in Progress
-          </Link>
         </div>
       </div>
     </header>
